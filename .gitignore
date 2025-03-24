@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # JSON
-.JSON
+*.JSON
