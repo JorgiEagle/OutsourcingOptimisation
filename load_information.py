@@ -9,8 +9,9 @@ from products import Product, AudienceGroups
 import json
 
 
-DATA_FILE_LOCATION = Path.cwd() / Path("/data/game_values.JSON")
-data = json.load(DATA_FILE_LOCATION)
+DATA_FILE_LOCATION = Path.cwd() / Path("data/game_values.JSON")
+with open(DATA_FILE_LOCATION, 'r') as in_file:
+    data = json.load(in_file)
 
 
 def get_enum_from_string(enum_class: Enum, input_string: str):

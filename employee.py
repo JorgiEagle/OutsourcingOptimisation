@@ -20,7 +20,7 @@ class EmployeeType(StrEnum):
         return
 
 
-class EmployeeLevel(IntEnum):
+class EmployeeLevel(StrEnum):
     BEGINNER = auto()
     INTERMEDIATE = auto()
     EXPERT = auto()
