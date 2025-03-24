@@ -1,0 +1,1 @@
+A project for optimising gameplay of Startup Company - https://store.steampowered.com/app/606800/Startup_Company/
